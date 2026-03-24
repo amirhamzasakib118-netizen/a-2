@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+
+nav {
+    border-bottom: 1px solid purple;
+    background-color: #2a134d;
+    display: flex;
+    justify-content: space-between;
+    padding: 34px;
+    color: white;
+    align-items: center;
+}
+
+.linear {
+    background: linear-gradient(#F7E93F , #FB09B4, #9100F8);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav>.nav-list {
+    display: flex;
+    gap: 32px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.nav-list>p:hover {
+    cursor: pointer;
+    color: plum;
+}
+
+.btn-1 {
+    max-width: 135px;
+    background: linear-gradient(#ddd9a8 , #FB09B4, #9100F8);
+    border-radius: 10000px;
+    padding: 12px 16px;
+    font-size:16px;
+}
+
+.btn-1:hover {
+    cursor: grab;
+    background:linear-gradient(#53502c , #ff5dce, #522d6d)
+}
+
+.hamburger {
+    display: none;
+}
+
+
+@media screen and (max-width:576px) {
+
+    nav>.nav-list {
+    display: none;
+}
+ .btn-1 {
+     display: none;
+ }
+
+ .hamburger {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+}
