@@ -212,6 +212,100 @@ nav>.nav-list {
     color: rgba(255, 255, 255, 0.575);
 }
 
+.choose-section {
+    background-color: #230E3D;
+}
+
+.choose-siction-title{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 40px;
+
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 350px;
+    margin-right: 350px;
+    gap: 30px;
+}
+
+.glow, .card-title {
+    margin-bottom: 16px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-title0{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 16px;
+ }
+
+
+.audio {
+    grid-row: span 2;
+    color: white;
+    background-color: #2a134d;
+    height: 480px;
+    width: 380px;
+    padding: 107px 40px ;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+
+.interviews {
+    grid-column: span 2;
+    color: white;
+    background-color: #2a134d;
+    height: 273px;
+    width: 790px;
+    padding: 55px;
+    align-items: center;
+    border-radius: 40px;
+    margin-bottom: 120px;
+}
+
+.mobile {
+    grid-column: span 2;
+    color: white;
+    background-color: #2a134d;
+    height: 225px;
+    width: 790px;
+    padding: 55px;
+    border-radius: 40px;
+}
+
+.community {
+    grid-column: span 2;
+    color: white;
+    background-color: #2a134d;
+    height: 225px;
+    width: 790px;
+    padding: 55px;
+    border-radius: 40px;
+    margin-bottom: 30px;
+
+}
+
+.resources {
+    color: white;
+    background-color: #2a134d;
+    height: 273px;
+    width: 380px;
+    padding: 55px;
+    border-radius: 40px;
+}
+
+
 
 
 
@@ -320,6 +414,59 @@ nav>.nav-list {
     margin-bottom: 40px;
     color: rgba(255, 255, 255, 0.575);
 }
+
+.choose-siction-title{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 16px;
+
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.audio {
+    height: 287px;
+    width: 400px;
+    padding: 24px ;
+    margin-bottom: 30px;
+}
+
+.interviews {
+    height: 311px;
+    width: 400px;
+    padding: 24px;
+    margin-bottom: 20px;
+}
+
+.mobile {
+    height: 215px;
+    width: 400px;
+    padding: 24px;
+    border-radius: 40px;
+}
+
+.community {
+    height: 215px;
+    width: 400px;
+    padding: 24px;
+    margin-bottom: 30px;
+
+}
+
+.resources {
+    height: 215px;
+    width: 400px;
+    padding: 24px;
+    margin-bottom: 40px;
+}
+
 
 
 
