@@ -305,6 +305,83 @@ nav>.nav-list {
     border-radius: 40px;
 }
 
+footer {
+    background-image: url(./assets/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.footer-title>h1 {
+    color: white;
+    font-size: 68px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+
+.socials {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 38px;
+}
+
+.socials>p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.spotify {
+    display: flex;
+    gap: 5px;
+    color: rgba(255, 255, 255, 0.575);
+}
+
+.spotify:hover {
+    cursor: pointer;
+}
+
+
+.ap {
+    display: flex;
+    gap: 5px;
+    color: rgba(255, 255, 255, 0.575);
+}
+
+.ap:hover{
+    cursor: grab;
+}
+.yt {
+    display: flex;
+    gap: 5px;
+    color: rgba(255, 255, 255, 0.575);
+}
+
+.yt:hover {
+    cursor: grabbing;
+}
+
+
+.x {
+    display: flex;
+    gap: 5px;
+    color: rgba(255, 255, 255, 0.575);
+}
+
+.x:hover {
+    cursor: pointer;
+}
+
+.copy {
+    color: rgba(255, 255, 255, 0.575);
+    text-align: center;
+    margin-top: 32px;
+}
+
 
 
 
@@ -468,6 +545,44 @@ nav>.nav-list {
 }
 
 
+footer {
+    height: 22vh;
+}
+
+.footer-title>h1 {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.socials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.spotify {
+    margin-left: 70px;
+}
+
+.ap {
+    margin-right: 62px;
+}
+
+.yt {
+    margin-left: 113.5px;
+}
+
+.x {
+    margin-left: 20px;
+}
+
+.copy {
+    margin-top: 15px;
+}
 
 
  
