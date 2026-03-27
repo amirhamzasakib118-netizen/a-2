@@ -422,6 +422,49 @@ nav>.nav-list {
     padding-bottom: 12px;
 }
 
+.host-title {
+    padding-bottom: 40px;
+}
+
+.host-card{
+    color: white;
+    background-color: #220f3f;
+    display: flex;
+    height: 280px;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 24px;
+    padding-left: 40px;
+    border-radius: 40px;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.host-h {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.host-socials{
+    position: absolute;
+    top: 423%;
+    left: 32%;
+}
+
+.radius {
+    border: 1px solid #533C72;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: px;
+}
+
+.radius:hover {
+    background: linear-gradient(#e6d83f , #f58fd6, #722da3);
+    cursor: pointer;
+}
+
 
 
 
@@ -464,6 +507,7 @@ footer {
 
 .spotify:hover {
     cursor: pointer;
+    color: plum;
 }
 
 
@@ -475,6 +519,7 @@ footer {
 
 .ap:hover{
     cursor: grab;
+    color: plum;
 }
 .yt {
     display: flex;
@@ -484,6 +529,7 @@ footer {
 
 .yt:hover {
     cursor: grabbing;
+    color: plum;
 }
 
 
@@ -495,6 +541,7 @@ footer {
 
 .x:hover {
     cursor: pointer;
+    color: plum;
 }
 
 .copy {
@@ -670,6 +717,38 @@ footer {
     margin-left: 50px;
     padding-bottom: 4px;
 }
+
+.host-card{
+    display: flex;
+    flex-direction: column;
+    height: 483px;
+    width: 400px;
+    padding-top: 8px;
+    border-radius: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.host-socials{
+    position: absolute;
+    top: 528.5%;
+    left: 32%;
+}
+
+.host-card-img {
+    margin-right: 30px;
+}
+
+.host-h {
+     padding-right: 24px;
+}
+
+.host-p {
+    padding-right: 24px;
+    padding-top: 6px;
+}
+
 
 
 
